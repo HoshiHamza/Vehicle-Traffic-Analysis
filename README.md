@@ -15,7 +15,14 @@ The dataset is in the video (.avi) format.
 ## Training
 For annotating the data, [Yolo Annotation tool](https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool) is used. This is the link to the images used for training and their ground truth values [Training Data](). 
 
-Training data contains labels, images(resized to 500 * 400), process.py and darknet folder. Open Train.ipynb, copy Training data into google colab runtime. 
+Training data contains: 
+1. labels 
+2. images(resized to 500 * 400)
+3. process.py 
+4. darknet folder. 
+
+Open Train.ipynb, copy Training data into google colab runtime. 
+
 Darknet Folder Tree is below:  
   
   
