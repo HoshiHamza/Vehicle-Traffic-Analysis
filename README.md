@@ -63,9 +63,12 @@ There are Four Sections in this notebook:
 You only need to run the first section if you have the data in shape of a video. If data is in format of frames you need to start from section 2. For the vehicle detection section, you need to copy model i.e. .weights file which was created during training. You only need to change path to directories in top cell of the notebook and run the rest of the cells as it is in the Vehicle Detection section.
 
 
-##Calculating Flow of Vehicles:
-###How to run:
-This is the Google Colab Notebook implementation of NVIDIA-FlowNet2-pytorch at: [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch) 
+## Calculating Flow of Vehicles:
+
+This is the Google Colab Notebook implementation of NVIDIA-FlowNet2-pytorch at: [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch)
+
+### How to run:
+ 
 1. Open the notebook in Google Colab
 2. Ensure you are running on GPU from 'Runtime'
 3. Run the first cell and check which GPU is running. Tesla P100-PCIE or Tesla T4 work currently. Tesla T4 may give an error THCudaCheckError, however it will work. Tesla K80 will not work.
