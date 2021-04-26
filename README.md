@@ -42,8 +42,10 @@ Darknet Folder Tree is below:
   ```
     
 Once folder looks like this, run process.py. It will split the train and test data and create train.txt and test.txt. These files will contain the paths to each image.
+
 To run the process.py run the following command:
 ``` !python process.py -a Images -p 10 ```
+
 This 10 here represents the number of images to be added in test data. You can modify this number.
 
 train.ipynb is self explanatory with sections and comments in it. You just need to change the paths to the folders in the top cell of the notebook.
