@@ -16,8 +16,8 @@ The dataset is in the video (.avi) format.
 For annotating the data, [Yolo Annotation tool](https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool) is used. This is the link to the images used for training and their ground truth values [Training Data](). 
 
 Training data contains: 
-1. labels 
-2. images(resized to 500 * 400)
+1. Labels 
+2. Images(resized to 500 * 400)
 3. process.py 
 4. darknet folder. 
 
