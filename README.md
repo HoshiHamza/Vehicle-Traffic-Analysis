@@ -8,6 +8,8 @@ This repository contains all source codes relevant for
 ## DataSet
 The data gathered was of 2 busy roads of Lahore. All Videos were created on pedestrian bridge with the view of the road. One video was created on Main Boulevard Gulberg, Lahore opposite Hafeez Center. The other video was created on Main Boulevard New Garden Town, Lahore opposite Mughleazam Fort. For each location we made 2 videos one at day time and one at night. 
 
+![Sample Image](/images/dataset.png)
+
 The dataset created can be found at:
 
 The dataset is in the video (.avi) format. 
