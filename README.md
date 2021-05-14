@@ -23,7 +23,9 @@ The dataset created can be found at: [Dataset](https://drive.google.com/drive/fo
 The dataset is in the video (.avi) format. 
 
 ## Training
-For annotating the data, [Yolo Annotation tool](https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool) is used. This is the link to the images used for training and their ground truth values [Training Data](). 
+For annotating the data, [Yolo Annotation tool](https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool) is used.
+
+For training, go to the Yolo training section of this notebook, and copy [Training data](https://drive.google.com/drive/folders/1N14gy_stPiMX-A_lehIp8zbw7ovR2zmH?usp=sharing) into google colab runtime. 
 
 Training data contains: 
 1. Labels 
@@ -31,7 +33,7 @@ Training data contains:
 3. process.py 
 4. darknet folder. 
 
-For training, go to the Yolo training section of this notebook, and copy [Training data](https://drive.google.com/drive/folders/1N14gy_stPiMX-A_lehIp8zbw7ovR2zmH?usp=sharing) into google colab runtime. 
+
 
 Darknet Folder Tree is below:  
   
