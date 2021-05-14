@@ -123,7 +123,7 @@ Go to Vehicle Velocity Section, you need to set the path to the directories in t
 It will generate images with vehicle velocities.
 
 Sample output:
-
+![Sample Image](/images/216.jpg)
 
 
 
