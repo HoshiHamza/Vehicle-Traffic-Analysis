@@ -89,6 +89,11 @@ This will create 2 text files.
 1. Text file containing center cordinates of vehicles (will be used in vehicle velocity section)
 2. Text file containing bounding box cordinates with their respective classes (will be used in vehicle counting section)
 
+Sample output of yoloV3:
+
+![Sample Image](/images/Yolo_result.jpg)
+
+
 ## Vehicle Counting
 
 In the Vehicle Count Section, set the path to the directories in the top cell of this section. Run all the cells in the section, it will create a folder containing frames displaying vehicle count wrt to their classes.
