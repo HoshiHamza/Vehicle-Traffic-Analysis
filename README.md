@@ -121,7 +121,7 @@ This is the Google Colab Notebook implementation of NVIDIA-FlowNet2-pytorch at: 
 This will generate .flo files for all the frames which will be further used in vehicle velocity part
 
 ### Important:
-Before moving to this section you need to run lin_inter.py on your system. This will not work on google colab as it does not suppost the click event on immages. You need to manually mark the two lines on the road representing same actual length in meters, and 4 corners representing the road. This will generate text file which will be further used in Vehicle Velocity.
+Before moving to Vehicle Velocity section you need to run lin_inter.py on your system. This will not work on google colab as it does not suppost the click event on immages. You need to manually mark the two lines on the road representing same actual length in meters, and 4 corners representing the road. This will generate text file which will be further used in Vehicle Velocity.
 
 Or go to this [link](https://drive.google.com/file/d/14HI2BT2Q2a-czhwybB3A-5RFnq4uLay2/view?usp=sharing), this text file is generated for gulberg dataset and can be used in vehicle velocity part directly.  
 
