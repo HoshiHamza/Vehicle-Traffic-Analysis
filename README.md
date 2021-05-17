@@ -83,6 +83,8 @@ There are Three Subsections in this notebook:
 
 You only need to run the first section if you have the data in shape of a video. If data is in format of frames you need to start from subsection 2. For the vehicle detection section, you need to copy model i.e. .weights file which was created during training. 
 
+You can also download the [PreTrained Model](https://drive.google.com/drive/folders/1cSdMmaqEOPNbFAFb2kRGXTNqbGW3d0bi?usp=sharing)
+
 You only need to change path to directories in top cell of this section and run the rest of the cells as it is in the Vehicle Detection section.
 
 This will create 2 text files. 
@@ -103,6 +105,7 @@ In the Vehicle Count Section, set the path to the directories in the top cell of
 - Text file containing pixel cordinates of counter lines ([Sample](https://drive.google.com/drive/folders/1DHIZhIU-C_vw_knp2xmp5R08RUZ6kA9G?usp=sharing))
 - Frames
 
+
 ## Calculating Flow of Vehicles:
 
 This is the Google Colab Notebook implementation of NVIDIA-FlowNet2-pytorch at: [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch)
@@ -117,6 +120,8 @@ This is the Google Colab Notebook implementation of NVIDIA-FlowNet2-pytorch at: 
 
 This will generate .flo files for all the frames which will be further used in vehicle velocity part
 
+
+Before moving to this section you need to run lin_inter.py on your system. This will not work on google colab as it does not suppost the click event on immages. You need to manually mark the two lines on the road representing same actual length in meters, and 4 corners representing the road. This will generate text file which will be further used in Vehicle Velocity.
 
 ## Vehicle Velocity
 Go to Vehicle Velocity Section, you need to set the path to the directories in the top cell of this section.
